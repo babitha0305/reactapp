@@ -1,15 +1,17 @@
-
+import * as React from 'react';
 import './App.css';
 import ButtonAppBar from './AppBar';
-import TemporaryDrawer from './drawer';
-import ToggleButtons from './toggle button';
+import Grid from './Grid';
 
 function App() {
   return (
     <div className="App">
+    <div>
     <ButtonAppBar />
-    <TemporaryDrawer />
-    <ToggleButtons /> 
+    </div>
+    <div>
+      <Grid />
+    </div>
     </div>
   );
 }
